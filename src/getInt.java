@@ -19,9 +19,9 @@ public class getInt {
                 valid = true;
             } else {
                 System.out.println("Invalid input. Please enter a valid integer.");
-                pipe.next(); // Clear the invalid input
+                pipe.next();
             }
-            pipe.nextLine(); // Clear the newline character
+            pipe.nextLine();
         }
         return result;
     }

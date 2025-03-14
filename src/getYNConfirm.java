@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class getYNConfirm {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         boolean confirmation = getYNConfirm(console, "Do you want to proceed? (Y/N): ");
